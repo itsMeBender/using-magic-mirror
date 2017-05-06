@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>Magic mirror</title>
+
+<link rel="stylesheet" href="css/magic.css">
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<link rel="import" href="bower_components/polymer/polymer.html"><!-- Always first -->
+<link rel="import" href="bower_components/bender-clock/bender-clock.html">
+<link rel="import" href="bower_components/daily-quote/daily-quote.html">
+<link rel="import" href="bower_components/carrousel-list/carrousel-list.html">
+<link rel="import" href="bower_components/carrousel-list/carrousel-list-item.html">
+<style is="custom-style">
+.quote--mixin {
+    --quote-theme: {
+        margin: 0;
+        text-align: center;
+    }
+}
+</style>
+</head>
+<body>
+    <div id="header">
+        <div class="clock clock--local">
+            <bender-clock></bender-clock>
+            <p class="clock--label">Kampen</p>
+        </div>
+    </div>
+    <div id="middle">
+        <div id="column--right">
+            <h3>Laatste nieuws (en ideeën)</h3>
+            <carrousel-list show="4" seconds="5">
+                <carrousel-list-item>Get the RSS-feed from some where</carrousel-list-item>
+                <carrousel-list-item>RSS data inside CARROUSEL</carrousel-list-item>
+                <carrousel-list-item>Get Weather API key</carrousel-list-item>
+                <carrousel-list-item>Get Weather Kampen, Soligorsk</carrousel-list-item>
+                <carrousel-list-item>Show weather on screen</carrousel-list-item>
+                <carrousel-list-item>Happy Birthday events</carrousel-list-item>
+                <carrousel-list-item>Animated screen saver</carrousel-list-item>
+                <carrousel-list-item>More ideas ....</carrousel-list-item>
+            </carrousel-list>
+        </div>
+    </div>
+    <div id="footer">
+        <daily-quote class="quote--mixin" language="NL"></daily-quote>
+    </div>
+</body>
+</html>

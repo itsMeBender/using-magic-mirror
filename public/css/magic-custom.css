@@ -1,0 +1,6 @@
+.quote--mixin {
+    --quote-theme: {
+        margin: 0;
+        text-align: center;
+    }
+}

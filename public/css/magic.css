@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Dosis Regular';
+  src: url('fonts/Dosis/Dosis-Regular.ttf');
+  font-weight: normal;
+/*
+  src: url('webfont.eot');
+  src: url('webfont.eot?#iefix') format('embedded-opentype'),
+       url('webfont.woff2') format('woff2'),
+       url('webfont.woff') format('woff'),
+       url('webfont.ttf')  format('truetype'),
+       url('webfont.svg#svgFontName') format('svg');
+*/
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Dosis Regular', sans-serif;
+}
+
+#header {
+    position: absolute;
+    bbackground-color: yellow;
+    top: 3em;
+    left: 3em;
+    right: 3em;
+    height: 14em;
+}
+#middle {
+    position: absolute;
+    bbackground-color: blue;
+    top: 17em;
+    right: 3em;
+    bottom: 10em;   /* Footer height + bottom*/
+    left: 3em;
+}
+#column--right {
+    width: 30%;
+    float: right;
+}
+#footer {
+    position: absolute;
+    bbackground-color: red;
+    right: 3em;
+    bottom: 3em;
+    left: 3em;
+    height: 7em;
+}
+
+.clock--local {
+    width: 10em;
+    text-align: center;
+}
+.clock--label {
+    font-size: 1.8em;
+    color: #EEEEEE;
+    text-transform: uppercase;
+}
+carrousel-list-item {
+    padding: 0.3em 0;
+}

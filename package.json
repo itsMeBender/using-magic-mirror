@@ -1,0 +1,11 @@
+{
+  "name": "magic-mirror-pi",
+  "version": "0.0.1",
+  "description": "Raspberry Pi Magic Mirror project",
+  "main": "server.js",
+  "author": "Bender",
+  "dependencies": {
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  }
+}

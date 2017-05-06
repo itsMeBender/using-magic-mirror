@@ -1,0 +1,17 @@
+{
+  "name": "webcompnentlibrary",
+  "description": "Overview of Portavita Web Components.",
+  "main": "webcomponents.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "daily-quote": "itsMeBender/daily-quote#^1.1.0",
+    "bender-clock": "itsMeBender/bender-clock#^1.0.3",
+    "carrousel-list":"https://github.com/itsMeBender/carrousel-list.git"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
